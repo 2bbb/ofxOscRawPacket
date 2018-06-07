@@ -1,0 +1,3 @@
+[submodule "ofxOscRawPacketExample/addons/ofxZmq"]
+	path = ofxOscRawPacketExample/addons/ofxZmq
+	url = https://github.com/2bbb/ofxZmq.git
