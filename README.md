@@ -1,10 +1,17 @@
 # ofxOscRawPacket
 
-create raw osc packet from ofxOscMessage
+create raw packet from ofxOscMessage
 
 ## API
 
-TODO
+* `ofBuffer ofxOscToBuffer(const ofxOscMessage &mess)`
+* `ofBuffer ofxOscToBuffer(const ofxOscBundle &bundle)`
+
+create raw osc packet
+
+* `std::vector<ofxOscMessage> ofxOscFromBuffer(const ofBuffer &buf)`
+
+create ofxOscMessages from raw osc packet
 
 ## Example
 
